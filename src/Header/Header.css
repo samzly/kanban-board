@@ -18,6 +18,11 @@
 .icon_off {
     background: #FFF;
     border-radius: 40px;
+    transition: background-color 0.5s;
+}
+.icon_on {
+    border-radius: 40px;
+    transition: background-color 0.5s;
 }
 .arrow_down {
     transition: 0.5s;
