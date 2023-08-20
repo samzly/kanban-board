@@ -1,0 +1,27 @@
+.footer {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0067A3;
+    color: #FFF;
+    padding: 0 21px;
+    position: sticky;
+    bottom: 0;
+}
+@media screen and (max-width: 615px){
+    .footer {
+        display: none;
+    }
+}
+.footer_tasks {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+}
+.footer_finished {
+    margin-left: 10px;
+}
+.copyright {
+    margin-left: 10px;
+}

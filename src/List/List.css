@@ -1,0 +1,16 @@
+.task__stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 282px;
+}
+.task__list {
+    width: 100%;
+    max-height: 80%;
+    padding: 0;
+    margin: 0 0 2px;
+}
+.list__item {
+    text-decoration: none;
+    color: #000;
+}
